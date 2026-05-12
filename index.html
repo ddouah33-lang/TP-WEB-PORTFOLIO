@@ -3,24 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mon Portfolio</title>
+    <title>Portfolio</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-   
     <nav>
-        <a href="#">Accueil</a>
-        <a href="#">À propos</a>
-        <a href="#">Compétences</a>
-        <a href="#">Projets</a>
-        <a href="#">Contact</a>
+        <a href="#accueil">Accueil</a>
+        <a href="#apropos">À propos</a>
+        <a href="#competences">Compétences</a>
+        <a href="#projets">Projets</a>
+        <a href="#contact">Contact</a>
     </nav>
 
-    
-    <header>
-        <img src="photo.jpg" alt="Ma photo" class="profile">
+    <header id="accueil">
+        <img src="photo.jpg" alt="photo" class="profile">
+
         <h1>Bienvenue sur mon portfolio</h1>
+
         <p>Je suis un étudiant en développement web</p>
 
         <a href="https://github.com" target="_blank">
@@ -28,17 +28,24 @@
         </a>
     </header>
 
-    <main>
-        <p>Je suis le main</p>
-    </main>
-
-    
-    <section>
-        <p>Je suis la section</p>
+    <section id="apropos">
+        <h2>À propos</h2>
+        <p>Je suis passionné par le développement web et le design.</p>
     </section>
 
-    <footer>
-        <p>Je suis le footer</p>
+    <section id="competences">
+        <h2>Compétences</h2>
+        <p>HTML - CSS - JavaScript</p>
+    </section>
+
+    <section id="projets">
+        <h2>Projets</h2>
+        <p>Mes projets seront affichés ici.</p>
+    </section>
+
+    <footer id="contact">
+        <h2>Contact</h2>
+        <p>Email : exemple@gmail.com</p>
     </footer>
 
 </body>
