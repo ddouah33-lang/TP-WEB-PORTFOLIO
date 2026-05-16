@@ -101,3 +101,18 @@ p{
   body > h1  { margin-top: 3.5rem; }
   main, section { padding: 0 1.25rem; }
 }
+#btn{
+    padding: 12px 25px;
+    border: none;
+    background-color: #38bdf8;
+    color: white;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+#message{
+    margin-top: 20px;
+    font-size: 22px;
+    color: #38bdf8;
+}
